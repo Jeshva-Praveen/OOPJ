@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class evenodd {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		int a;
+		System.out.print("Enter the value of a:");
+		a=sc.nextInt();
+		if(a==0)
+			System.out.println("The Given Number "+a+" is neither Even number nor Odd number:");
+		else if(a%2==0)
+			System.out.println("The Given Number "+a+" is an Even number:");		
+		else
+			System.out.println("The Given Number "+a+" is an Odd number:");	
+	}
+}
